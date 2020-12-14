@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyDialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <!--  由小到大出现  -->
+    <style name="dialog_scale_style">
+        <item name="android:windowEnterAnimation">@anim/common_dialog_scale_show</item>
+        <item name="android:windowExitAnimation">@anim/common_dialog_scale_hide</item>
+    </style>
+    <!--从底部进入退出动画-->
+    <style name="dialog_up_down_style" parent="Animation.AppCompat.Dialog">
+        <item name="android:windowEnterAnimation">@anim/common_dialog_up</item>
+        <item name="android:windowExitAnimation">@anim/common_dialog_down</item>
+    </style>
+
+</resources>

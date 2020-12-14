@@ -1,7 +1,6 @@
 package com.xunai.dialogdemo.dialog.view;
 
 import android.content.Context;
-import android.content.DialogInterface;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.widget.FrameLayout;
